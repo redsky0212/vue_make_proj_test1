@@ -1,13 +1,23 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <div>{{testdata}}</div>
+    <input type="text" v-bind:value="testFn" />
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data: () => {
+    return { testdata: 'aaaaaaaaa' }
+  },
+  computed: {
+    testFn: () => {
+      return '이거슨~~~'
+    }
+  }
 }
 </script>
 
