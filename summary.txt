@@ -1,3 +1,14 @@
 *** vue 개발환경 구성하기.
 
 * Vue CLI 를 통한 프로젝트 구성. (Vue CLI 3)(https://cli.vuejs.org/)
+ 1. nodejs, npm pc에 설치 (https://nodejs.org/ko/) 다운로드 받은 후 설치.
+ 2. Vue CLI 3 를 global로 설치한다. ( 현재는 npm install -g @vue/cli ) 버전업 되면서 설치명이 약간 달라질 수 있음. (https://cli.vuejs.org)
+ 3. Vue CLI 를 통하여 webpack 으로 프로젝트 구성한다.
+   - (vue init webpack 프로젝트명) ---> Vue CLI 3부터는 vue init를 사용하기 위해 @vue/cli-init 을 따로 설치해야한다.
+ 4. npm i (개발환경에 필요한 라이브러리들을 다운받는다.) 모두 설치 되어있으면 안해도 된다.
+ 5. 모두 설치가 되었으면 npm run dev로 서버를 실행하여 기본생성된 화면을 띄울 수 있다.
+
+* 실 프로젝트 적용할때.
+ - 미리 기본 환경 구성된 모든 node_modules가 셋팅된 폴더를 git에 올려 clone받거나 파일을 복사해서 사용한다.
+ - npm install 로 한번 설치해준다.
+ - webpack의 설정을 각 사이트 환경에 맞게 조정하여 config설정한다.
