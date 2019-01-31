@@ -12,3 +12,4 @@
  - 미리 기본 환경 구성된 모든 node_modules가 셋팅된 폴더를 git에 올려 clone받거나 파일을 복사해서 사용한다.
  - npm install 로 한번 설치해준다.
  - webpack의 설정을 각 사이트 환경에 맞게 조정하여 config설정한다.
+ - git, webpack 은 필연적으로 사용법을 알아야한다.
